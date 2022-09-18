@@ -139,20 +139,17 @@ const About = () => {
             <br />
 
             <Text>
-             Maximilian (Founder)
+             Maximilian & Angelo (Founder)
             </Text> <br />
 
             <Text>
-             Angelo (Founder)
+            To know more about us follow us on Twitter. See you soon.
             </Text> <br />
 
              <Text>
              We might be young, inexperienced, have no track record, but one thing is for sure, 
              we have nothing to hide and own what we're about and who we are. 
-             No matter if you are with us or against us our rise is Unstoppable.
-             We're the Pioneers of the Future and building its Foundation now interested 
-             in the new Space called Web3 and who thinks, that NFTs are the ideal point of entry 
-             on our journey to explore the Unknown.</Text>
+             No matter if you are with us or against us our rise is Unstoppable.</Text>
 
              <br />
 
