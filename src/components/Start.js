@@ -107,7 +107,7 @@ const Start = () => {
         <Right data-scroll data-scroll-speed="-1" >
         
           <Title >
-        Start
+        Welcome
           </Title>
           <Text>
           This is Just the start of "something" much bigger to Come. And you can be Part of That.
@@ -127,7 +127,9 @@ const Start = () => {
           <br />
 
           <Text>
-            The Mint price is 0.016 ETH (≈ 25$). <br />
+          Ladies and Gentlemens,
+          
+          welcome to: UNKNOWN MEN. <br />
           </Text>
           <br />
           <Title >why?</Title>
@@ -139,6 +141,13 @@ const Start = () => {
           and relatives with the Foundation for a bright Future. 
           It sounds childish but it’s just something that motivates 
           us every single day to improve and to keep moving forward.
+
+          <Text>
+          In our opinion is a strong communy the ultimate breeding ground for new, 
+          innovative, and extraordinary ideas. 
+          Because a extraordinary and strong Community is the Foundation to achieve extraordinary results, 
+          in almost every area of Life.</Text>
+           <br />
           </Text>
         </Right>
         <Left data-scroll data-scroll-direction="horizontal">
