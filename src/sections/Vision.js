@@ -129,7 +129,7 @@ const Vision = () => {
         data-scroll-speed={-1}
         data-scroll-direction={"verticle"}
       >
-        <Title>Vision</Title>
+        <Title>Implementation</Title>
 
         <SubTitle>Community Goals</SubTitle>
         <br />
@@ -157,16 +157,6 @@ const Vision = () => {
         </Text>
         <br />
         <Text>
-        The first step on this journey is to make full use of this Opportunity, 
-        by using our NFT to build a strong network of competent and capable people 
-        in various Areas of Life (financially, emotionally and mentally) 
-        and to create a breeding ground for exceptional future Web3 businesses able
-        to be foundational pillars of the next Generation.
-        </Text>
-        <br />
-
-        <br />
-        <Text>
           At the current stage, our NFT has 2 primary focuses: <br />
           <ol>
             <li> - Creating a Platform to educate on Web3</li>
@@ -176,7 +166,11 @@ const Vision = () => {
         </Text>
         <br />
         <Text>
-         A platform that allows small artists in the NFT Space to gain more Attention and Recognition they deserve.
+         But sadly, in the NFT-Space, Artists had a great difficulty to establish themselves (especially smaller ones) 
+         and we're drawing under a Flood of greedy and blind people, chasing bad Bored Ape Yachtclub and Azuki Imitations for a quick buck.
+         But our Platform will change that. 
+         It's a long process but the reward and potential is unimaginable. A platform that allows small artists in the NFT Space 
+         to gain more Attention and Recognition they deserve.
          We believe on an artistic level, NFT offers a lot of potential, especially its future potential is tremendous.
          Digital Art has given the notion of “Art” a new meaning and almost a new definition. 
          And by creating a platform for the Space that is supportive of contemporary artists,
@@ -189,6 +183,8 @@ const Vision = () => {
 
             <br/>
           <Text>The Future is in your Hands. Welcome to the Odessey of the Unknown Men.</Text>
+
+          Before we talk about Phase 2, Phase 1 needs to have at least 80% completion rate.
           </ul>
         </Text>
       </Box>
