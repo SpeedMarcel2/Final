@@ -71,7 +71,7 @@ const Overlay = styled.div`
   right: 0;
   bottom: 0;
   background-color: ${(props) => `rgba(${props.theme.bodyRgba},0.7)`};
-  z-index: 1;
+  z-index: 2;
 `;
 
 const Box = styled.div`

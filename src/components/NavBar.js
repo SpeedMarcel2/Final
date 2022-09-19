@@ -186,7 +186,7 @@ const NavBar = ({ scroll }) => {
   }, []);
 
   return (
-    <NavContainer  click={click} data-scroll data-scroll-section>
+    <NavContainer  click={click}>
     <HamburgerMenuContainer onClick={() => handleMenuClick()}>
     <HamburgerMenu  click={click}  />
    
@@ -196,8 +196,8 @@ const NavBar = ({ scroll }) => {
         <a href="/#" onClick={() => handleClick("start")}>
           Start
         </a>
-        <a href="/#" onClick={() => handleClick("vision")}>
-          vision
+        <a href="/#" onClick={() => handleClick("implementation")}>
+          Implementation
         </a>
 
         <a href="/#" onClick={() => handleClick("about")}>
@@ -206,8 +206,8 @@ const NavBar = ({ scroll }) => {
         <a href="/#" onClick={() => handleClick("how")}>
           How?
         </a>
-        <a href="/#" onClick={() => handleClick("contact")}>
-          Contact
+        <a href="/#" onClick={() => handleClick("contact us")}>
+          Contact us
         </a>
         <Btn  href="https://ukm.pages.dev/" target={"_blank"} >
           Mint Now
