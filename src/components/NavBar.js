@@ -186,7 +186,7 @@ const NavBar = ({ scroll }) => {
   }, []);
 
   return (
-    <NavContainer  click={click} data-scroll>
+    <NavContainer  click={click}>
     <HamburgerMenuContainer onClick={() => handleMenuClick()}>
     <HamburgerMenu  click={click}  />
    
