@@ -12,7 +12,7 @@ const NavContainer = styled.div`
 
   width: 100vw;
   height: ${(props) => props.theme.navHeight};
-  z-index: 100;
+  z-index: 500;
 
   @media (max-width: 48em) {
     height: 100vh;
@@ -22,6 +22,22 @@ const NavContainer = styled.div`
     left: 0;
     right: 0;
     
+  }
+
+  .mobile{
+    display: none;
+    
+  }
+
+  @media (max-width: 48em){
+    .mobile{
+      display: inline-block;
+    
+  }
+
+  .desktop{
+    display: none;
+  }
   }
 `;
 
@@ -38,7 +54,7 @@ const Nav = styled.nav`
   position: fixed;
   top: 1rem;
   right: 2rem;
-  z-index: 5;
+  z-index: 50;
   transition: all 0.5s ease;
 
   a {
@@ -54,26 +70,54 @@ const Nav = styled.nav`
     transform: translateX(50%);
   }
   @media (max-width: 48em) {
-    flex-direction: column;
-    justify-content: center;
-
-    background-color: transparent;
-    top: 50%;
-    left: ${props => props.click ? '50%' : "-100%"};
-    transform: translate(-50%,-50%);
-    background-color: ${(props) => `rgba(${props.theme.bodyRgba},0.9)`};
-padding: 2rem;
-    a{
-      margin: 1rem 0;
-    }
+   display: none;
     
   }
   
 `;
 
+const NavMobile = styled.nav`
+  background-color: ${(props) => props.theme.body};
+  color: ${(props) => props.theme.text};
+  padding: 1rem 0;
+  width: 80%;
+
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+  z-index: 50;
+  transition: all 0.5s ease;
+
+  a {
+    font-weight: 100;
+
+    text-decoration: none;
+    color: inherit;
+  }
+  flex-direction: column;
+    justify-content: center;
+
+    background-color: transparent;
+    top: 50%;
+    left: ${props => http://props.click ? '50%' : "-100%"};
+    transform: translate(-50%,-50%) !important;
+    background-color: ${(props) => `rgba(${props.theme.bodyRgba},0.9)`};
+padding: 2rem;
+    a{
+      margin: 1rem 0;
+    }
+
+  @media (max-width: 48em) {
+    display: flex;
+  }
+  
+`;
+
 const HamburgerMenuContainer = styled.div`
-
-
 
 position: absolute;
 top: 1rem;
@@ -96,8 +140,7 @@ cursor: pointer;
 const HamburgerMenu = styled.button`
   background-color: ${(props) => props.theme.text};
 
-  width: ${props => props.click ? '0' : '1.5rem'};
-
+  width: ${props => http://props.click ? '0' : '1.5rem'};
 
   cursor: pointer;
 
@@ -113,7 +156,6 @@ const HamburgerMenu = styled.button`
   outline: none;
   transition: all 0.2s ease ;
 
-
   &::after {
     content: "";
     width: 1.5rem;
@@ -123,10 +165,9 @@ const HamburgerMenu = styled.button`
     background-color: ${(props) => props.theme.text};
   transition: all 0.2s ease ;
 
-
     position: absolute;
-    top: ${props => props.click ? '0rem' : "0.5rem"};
-    transform: ${props => props.click ? 'rotate(45deg)' : "0"};
+    top: ${props => http://props.click ? '0rem' : "0.5rem"};
+    transform: ${props => http://props.click ? 'rotate(45deg)' : "0"};
 
   }
   &::before {
@@ -138,8 +179,8 @@ const HamburgerMenu = styled.button`
 
     display: inline-block;
     position: absolute;
-    bottom: ${props => props.click ? '0rem' : "0.5rem"};
-    transform: ${props => props.click ? 'rotate(-45deg)' : "0"};
+    bottom: ${props => http://props.click ? '0rem' : "0.5rem"};
+    transform: ${props => http://props.click ? 'rotate(-45deg)' : "0"};
 
   }
 `;
@@ -153,7 +194,8 @@ top: 1rem;
 background-color: ${props => props.theme.body};
 padding: 1rem;
 border: 1px solid ${props => `rgba(${props.theme.textRgba},0.5)`};
-
+text-decoration: none;
+color:inherit;
 @media (max-width: 64em){
   top: 5rem;
   left: -5rem;
@@ -177,6 +219,7 @@ const NavBar = ({ scroll }) => {
   const handleClick = (id) => {
     const target = document.getElementById(id);
     scroll.scrollTo(target);
+    handleMenuClick();
   };
 
   useEffect(() => {
@@ -186,18 +229,18 @@ const NavBar = ({ scroll }) => {
   }, []);
 
   return (
-    <NavContainer  click={click}>
+    <NavContainer  click={click} >
     <HamburgerMenuContainer onClick={() => handleMenuClick()}>
     <HamburgerMenu  click={click}  />
    
     </HamburgerMenuContainer>
-      <Nav click={click}>
+      <Nav click={click} data-scroll data-scroll-section>
       
         <a href="/#" onClick={() => handleClick("start")}>
           Start
         </a>
-        <a href="/#" onClick={() => handleClick("implementation")}>
-          Implementation
+        <a href="/#" onClick={() => handleClick("vision")}>
+          vision
         </a>
 
         <a href="/#" onClick={() => handleClick("about")}>
@@ -206,13 +249,38 @@ const NavBar = ({ scroll }) => {
         <a href="/#" onClick={() => handleClick("how")}>
           How?
         </a>
-        <a href="/#" onClick={() => handleClick("contact us")}>
-          Contact us
+        <a href="/#" onClick={() => handleClick("contact")}>
+          Contact
         </a>
-        <Btn  href="https://ukm.pages.dev/" target={"_blank"} >
+        <Btn className="mobile" href="https://47036a2c.ukm.pages.dev/" target={"_blank"} >
           Mint Now
         </Btn>
       </Nav>
+      <NavMobile click={click}>
+      
+        <a href="/#" onClick={() => handleClick("start")}>
+          Start
+        </a>
+        <a href="/#" onClick={() => handleClick("vision")}>
+          vision
+        </a>
+
+        <a href="/#" onClick={() => handleClick("about")}>
+          About
+        </a>
+        <a href="/#" onClick={() => handleClick("how")}>
+          How?
+        </a>
+        <a href="/#" onClick={() => handleClick("contact")}>
+          Contact
+        </a>
+        <Btn className="mobile" href="https://47036a2c.ukm.pages.dev/" target={"_blank"} >
+          Mint Now
+        </Btn>
+      </NavMobile>
+      <Btn className="desktop"  href="https://47036a2c.ukm.pages.dev/" target={"_blank"} >
+          Mint Now
+        </Btn>
     </NavContainer>
   );
 };
