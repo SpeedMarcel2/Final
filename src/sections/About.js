@@ -145,10 +145,6 @@ const About = () => {
             <Text>
             To know more about us follow us on Twitter. See you soon.
             </Text> <br /><br />
-
-             <Text>
-             To create the community we've envisioned, we have to set an example.</Text>
-
         </Right>
         </Box>
     </Container>

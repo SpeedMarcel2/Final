@@ -130,7 +130,7 @@ const Start = () => {
 
           <br />
 
-          <Title >Why?</Title>
+          <Title >Our wy?</Title>
 
           <Text>
           We are young and maybe naive, that can be true, we aren't perfect. 
