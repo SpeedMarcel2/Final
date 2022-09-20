@@ -149,12 +149,12 @@ const CardComponent = ({subTitle, children}) => {
 
 const How = () => {
   return (
-    <><Container data-scroll-section id="how">
+    <><Container data-scroll-section id="Welcome">
       <Title>How</Title>
       <Content>
         <Left data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal">
 
-          <CardComponent subTitle="Project">
+          <CardComponent subTitle="Welcome">
             <ImgContainer>
               <img src={img1} alt="unknown men" />
             </ImgContainer>
@@ -162,13 +162,10 @@ const How = () => {
               How to realize?
             </Text> <br />
             <Text>
-              The whole project is only realizable if both side commit themselves to the vision of the project.
-              If you share this Mentality and are willing to educate yourself, grow, learn, develop and improve, 
-              we invites you to join the Network to become part of the foundation that will shape the Future of upcoming Generations.
+            If you like what you’ve read and are willing to go alongside us on this journey..
+            Ladies and Gentlemens welcome to:
 
-              NFT, Blockchain, and Web3 aren’t just simple technologies, not only are they the Foundation for the next generations 
-              but also the greatest opportunity for the regular Man to escape the Boundaries of living an average Life,
-              to create their own Reality.
+            UNKNOWN MEN.
             </Text>
           </CardComponent>
 
