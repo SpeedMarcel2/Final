@@ -141,7 +141,8 @@ const RoadMap = () => {
           &nbsp;&nbsp; &nbsp;&nbsp;1. - Building foundational knowledge about Web3, that is necessary 
           to develop creative and innovative ideas able to impact or change the Web3 era.<br />
           &nbsp;&nbsp; &nbsp;&nbsp;2. - Forging the core of our Network by and building familiarity between our members. 
-          By developing and creating the community culture (Principles, Values and Standards).
+          By developing and creating the community culture (Principles, Values and Standards).<br />
+          
           &nbsp;&nbsp; &nbsp;&nbsp;3. -  Using Twitter (for now) through spaces, retweets and posts 
           to give smaller artists not only a platform but also an Audience, so they can go more in depth about their Art.
           <br /> <br />
