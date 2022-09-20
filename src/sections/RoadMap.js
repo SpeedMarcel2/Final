@@ -148,6 +148,8 @@ const RoadMap = () => {
           to give smaller artists not only a platform but also an Audience, so they can go more in depth about their Art.
           <br /> <br />
           Before we talk about Phase 2, Phase 1 needs to have at least 80% completion rate.
+     
+     
         </Text>
       </Box>
     </Container>
