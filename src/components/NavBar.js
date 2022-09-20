@@ -24,6 +24,7 @@ const NavContainer = styled.div`
     
   }
 
+
   .mobile{
     display: none;
     
@@ -35,6 +36,7 @@ const NavContainer = styled.div`
     
   }
 
+  
   .desktop{
     display: none;
   }
@@ -103,7 +105,7 @@ const NavMobile = styled.nav`
 
     background-color: transparent;
     top: 50%;
-    left: ${props => http://props.click ? '50%' : "-100%"};
+    left: ${props => props.click ? '50%' : "-100%"};
     transform: translate(-50%,-50%) !important;
     background-color: ${(props) => `rgba(${props.theme.bodyRgba},0.9)`};
 padding: 2rem;
@@ -111,6 +113,7 @@ padding: 2rem;
       margin: 1rem 0;
     }
 
+ 
   @media (max-width: 48em) {
     display: flex;
   }
@@ -118,6 +121,8 @@ padding: 2rem;
 `;
 
 const HamburgerMenuContainer = styled.div`
+
+
 
 position: absolute;
 top: 1rem;
@@ -140,7 +145,8 @@ cursor: pointer;
 const HamburgerMenu = styled.button`
   background-color: ${(props) => props.theme.text};
 
-  width: ${props => http://props.click ? '0' : '1.5rem'};
+  width: ${props => props.click ? '0' : '1.5rem'};
+
 
   cursor: pointer;
 
@@ -156,6 +162,7 @@ const HamburgerMenu = styled.button`
   outline: none;
   transition: all 0.2s ease ;
 
+
   &::after {
     content: "";
     width: 1.5rem;
@@ -165,9 +172,10 @@ const HamburgerMenu = styled.button`
     background-color: ${(props) => props.theme.text};
   transition: all 0.2s ease ;
 
+
     position: absolute;
-    top: ${props => http://props.click ? '0rem' : "0.5rem"};
-    transform: ${props => http://props.click ? 'rotate(45deg)' : "0"};
+    top: ${props => props.click ? '0rem' : "0.5rem"};
+    transform: ${props => props.click ? 'rotate(45deg)' : "0"};
 
   }
   &::before {
@@ -179,8 +187,8 @@ const HamburgerMenu = styled.button`
 
     display: inline-block;
     position: absolute;
-    bottom: ${props => http://props.click ? '0rem' : "0.5rem"};
-    transform: ${props => http://props.click ? 'rotate(-45deg)' : "0"};
+    bottom: ${props => props.click ? '0rem' : "0.5rem"};
+    transform: ${props => props.click ? 'rotate(-45deg)' : "0"};
 
   }
 `;
