@@ -135,21 +135,20 @@ const RoadMap = () => {
         The 1st Phase is about…
         </Text>
         <br />
-        <Text >
           
           <br />
-          &nbsp;&nbsp; &nbsp;&nbsp; Building foundational knowledge about Web3, that is necessary 
+          &nbsp;&nbsp; &nbsp;&nbsp; - Building foundational knowledge about Web3, that is necessary 
           to develop creative and innovative ideas able to impact or change the Web3 era.<br />
          
-          &nbsp;&nbsp; &nbsp;&nbsp;Forging the core of our Network by and building familiarity between our members. 
+          &nbsp;&nbsp; &nbsp;&nbsp; - Forging the core of our Network by and building familiarity between our members. 
           By developing and creating the community culture (Principles, Values and Standards).<br />
           
-          &nbsp;&nbsp; &nbsp;&nbsp;Using Twitter (for now) through spaces, retweets and posts 
+          &nbsp;&nbsp; &nbsp;&nbsp; - Using Twitter (for now) through spaces, retweets and posts 
           to give smaller artists not only a platform but also an Audience, so they can go more in depth about their Art.
           <br /> <br />
-          Before we talk about Phase 2, Phase 1 needs to have at least 80% completion rate.
+          <Text>Before we talk about Phase 2, Phase 1 needs to have at least 80% completion rate.<Text></Text>
      
-     
+        <br></br>
         </Text>
       </Box>
     </Container>
