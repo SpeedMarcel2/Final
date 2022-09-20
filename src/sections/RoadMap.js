@@ -132,13 +132,12 @@ const RoadMap = () => {
       <Box id="fixed-target" >
         <Title>Roadmap</Title>
         <Text>
-        The first Phase is about…
+        The 1st Phase is about…
         </Text>
         <br />
         <Text >
-        Using Twitter through spaces, retweets and posts to give smaller artists not only a platform but also an Audience,
-        so they can go more in depth about their Art.
-          <br /> <br />
+          
+          <br />
           &nbsp;&nbsp; &nbsp;&nbsp;1. - Building foundational knowledge about Web3, that is necessary 
           to develop creative and innovative ideas able to impact or change the Web3 era.<br />
           &nbsp;&nbsp; &nbsp;&nbsp;2. - Forging the core of our Network by and building familiarity between our members. 
@@ -146,9 +145,7 @@ const RoadMap = () => {
           &nbsp;&nbsp; &nbsp;&nbsp;3. -  Using Twitter (for now) through spaces, retweets and posts 
           to give smaller artists not only a platform but also an Audience, so they can go more in depth about their Art.
           <br /> <br />
-          On the other hand, we want to provide Digital-Artists with a platform, 
-          that helps them to spread their name and which offers them a space 
-          where they can go more in Depth about their Art.
+          Before we talk about Phase 2, Phase 1 needs to have at least 80% completion rate.
         </Text>
       </Box>
     </Container>

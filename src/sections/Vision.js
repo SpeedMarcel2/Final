@@ -135,56 +135,53 @@ const Vision = () => {
         <br />
 
         <Text>
-          Our Community Goal is simple. We want a strong Community of people
-          that values hard work, honesty, and loyalty.
+        Our Goal is incredibly Huge, to the point of being almost impossible. 
+        And to achieve that, it does not only require multiple steps in a specific sequence, 
+        but also certain conditions to be met.
         </Text>
 
         <Text>
-          We want a Community of people believing in us, our vision, our Mindset
-          to bring this Project as far as possible, this isn‘t Just a
-          extraordinary new NFT Project, this is Just the start of something
-          much bigger to Come. And you can be Part of That.
+        But the current day and age we live in, with things like Web3 created a great Window of opportunity 
+        that provides us with a great Foundation, making the success of the project more probable.
+        And you will be Part of That.
         </Text>
 
         <br />
 
         <Text>
-        This Goal is incredibly Huge, to the point of being almost impossible. 
-        And to achieve that, it does not only require multiple steps 
-        in a specific sequence but also certain conditions to be met. 
-        But the current time we live in and with opportunities like Web3, 
-        make us one step closer to our Destination.
+        The first step on this journey is to use our NFT to build a strong network of competent 
+        and capable people in various Areas of Life (financially, emotionally and mentally) 
+        and to create a breeding ground for exceptional future Web3 businesses able to be foundational pillars of the next Generation.
         </Text>
         <br />
         <Text>
-          At the current stage, our NFT has 2 primary focuses: <br />
+        And to create a platform purely for Digital Art, because Digital Art has given the notion of “Art” a new meaning 
+        and almost a new definition, since its first appearance in the market.<br />
           <ol>
-            <li> - Creating a Platform to educate on Web3</li>
+            <li> The Potential of this Industry is not only huge but also provides the World of Art 
+              with a new level of diversity, attracting a new Audience of Art-lovers. </li>
 
-            <li> - Building familiarity inside the network</li>
+            <li> And the NFT-Space is the best entry point for digital art to establish itself in the World.</li>
           </ol>
         </Text>
         <br />
         <Text>
          But sadly, in the NFT-Space, Artists had a great difficulty to establish themselves (especially smaller ones) 
          and we're drawing under a Flood of greedy and blind people, chasing bad Bored Ape Yachtclub and Azuki Imitations for a quick buck.
-         But our Platform will change that. 
-         It's a long process but the reward and potential is unimaginable. A platform that allows small artists in the NFT Space 
-         to gain more Attention and Recognition they deserve.
-         We believe on an artistic level, NFT offers a lot of potential, especially its future potential is tremendous.
-         Digital Art has given the notion of “Art” a new meaning and almost a new definition. 
-         And by creating a platform for the Space that is supportive of contemporary artists,
-         particularly the smaller ones with neither Capital nor Attention, we can lay a foundation for future inspiration.<br />
+        
+        <Text>But our Platform will change that.</Text> 
+         
+         It's a long process but the reward and potential is unimaginable.
           <ul>
             <li>Our Collection has a total of 500 NFTs</li>
             <li>
-             If you like what you’ve read and are willing to go alongside us on this journey, we welcome you to UNKNOWN MEN.
+            To know more about our NFT, the amount of NFT's we have and their price follow us on Twitter.
             </li>
 
             <br/>
           <Text>The Future is in your Hands. Welcome to the Odessey of the Unknown Men.</Text>
 
-          Before we talk about Phase 2, Phase 1 needs to have at least 80% completion rate.
+
           </ul>
         </Text>
       </Box>

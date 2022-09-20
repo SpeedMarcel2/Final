@@ -102,51 +102,45 @@ const Start = () => {
 
 
   return (
-    <Container data-scroll-section id="start">
+    <Container data-scroll-section id="Start">
       <Box>
         <Right data-scroll data-scroll-speed="-1" >
         
           <Title >
-        Welcome
+        Welcome.
           </Title>
           <Text>
-          This is Just the start of "something" much bigger to Come. And you can be Part of That.
-          Web 3 offers a new way of working and communicating with a big group of people. And you can be Part of That. 
-          Hop in on our Journey towards a better future.
+          We always wanted to be able to impact the World. 
+          On a level where our names will be written in History books even multiple millennia later. 
+          Leaving a legacy behind, that will provide humanity, our friends, and relatives with the Foundation for a bright Future. 
+          Unicating with a big group of people. And you can be Part of That. 
           
+          It sounds childish but at the same time, what is a Life without Dreams? 
+          It's like drinking coke without carbonic acid, yeah it's Disgusting..
           </Text>
           <br />
 
           <Text>
-          Our opinion is that the Community is the ultimate Foundation for new,
-          innovative, and extraordinary ideas. That’s why the community has
-          an indispensable place on our journey towards a new Future.
+          Our main priority for this NFT, is to develop a strong community before anything else. 
+          We believe, especially in the current time we're in, that being alone is a fatal mistake.
+          And we see it as our duty, to provide You with knowledge and value that not only is helpful in achieving our Goal, 
+          but might also be a great Advice for you, in your Daily Life.
             <br />
           </Text>
 
           <br />
 
+          <Title >Why?</Title>
+
           <Text>
-          Ladies and Gentlemens,
+          We are young and maybe naive, that can be true, we aren't perfect. 
+          But what we do have is the passion and the commitment not only to our Goal, but also to you as the Community. 
+          Because it's you who not only will bring this Project with us together to the Moon, 
+          but also you that took your faith and believe, to support our Mission. 
           
-          welcome to: UNKNOWN MEN. <br />
-          </Text>
-          <br />
-          <Title >why?</Title>
-
+          
           <Text>
-          We always wanted to be able to impact the World. 
-          On a level where our names will be written in History books even multiple millennia later. 
-          Leaving a legacy behind, that will provide humanity, our friends, 
-          and relatives with the Foundation for a bright Future. 
-          It sounds childish but it’s just something that motivates 
-          us every single day to improve and to keep moving forward.
-
-          <Text>
-          In our opinion is a strong communy the ultimate breeding ground for new, 
-          innovative, and extraordinary ideas. 
-          Because a extraordinary and strong Community is the Foundation to achieve extraordinary results, 
-          in almost every area of Life.</Text>
+          We're looking forward towards a great Future.</Text>
            <br />
           </Text>
         </Right>

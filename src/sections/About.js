@@ -132,26 +132,19 @@ const About = () => {
         </Left>
         <Right>
             <Title data-scroll data-scroll-speed="-1">About Us</Title>
-            <Text >We’re 2 young Men with the Dream and Desire to take control of our Destiny, having the choice 
-              to decide who and where we want to be in our Life. For us, Web3 (NFT, Blockchain, etc.) 
-              symbolizes the Opportunity we’ve constantly been looking for. 
-              The Opportunity to create our own reality, to not only dream but to make these dreams reality.</Text>
+            <Text >We might be young, inexperienced, have no track record, but one thing is for sure, 
+             we have nothing to hide and own what we're about and who we are. 
+             No matter if you are with us or against us our rise is Unstoppable.</Text>
             <br />
 
             <Text>
-             Maximilian & Angelo (Founder)
+             Founder:
+             Maximilian & Angelo
             </Text> <br />
 
             <Text>
             To know more about us follow us on Twitter. See you soon.
-            </Text> <br />
-
-             <Text>
-             We might be young, inexperienced, have no track record, but one thing is for sure, 
-             we have nothing to hide and own what we're about and who we are. 
-             No matter if you are with us or against us our rise is Unstoppable.</Text>
-
-             <br />
+            </Text> <br /><br />
 
              <Text>
              To create the community we've envisioned, we have to set an example.</Text>
