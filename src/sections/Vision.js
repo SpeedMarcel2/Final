@@ -169,14 +169,11 @@ const Vision = () => {
          But sadly, in the NFT-Space, Artists had a great difficulty to establish themselves (especially smaller ones) 
          and were drawning under a Flood of greedy and blind people, chasing bad Bored Ape Yachtclub and Azuki Imitations for a quick buck.
         
-<br></br>
-<Text>But our Platform will change that.</Text> 
+        <Text>But our Platform will change that.</Text> 
 
- <br></br>        
          It's a long process but the reward and potential is unimaginable.
           <ul>
             
-            <br></br>
             <Text>Informations about our Project</Text>
             <br>
             <li>Our Collection has a total of 500 NFTs</li>
@@ -185,7 +182,7 @@ const Vision = () => {
             </li></br>
 
             <br/>
-          <Text>The Future is in your Hands. Welcome to the Odessey of the Unknown Men.</Text>
+           The Future is in your Hands. Welcome to the Odessey of the Unknown Men.
 
 
           </ul>
