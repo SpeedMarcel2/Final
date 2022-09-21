@@ -134,7 +134,7 @@ const RoadMap = () => {
         <Text>
         The 1st Phase is about…
         </Text>
-        <br />
+        
           
           <br />
           &nbsp;&nbsp; &nbsp;&nbsp; - Building foundational knowledge about Web3, that is necessary 
@@ -146,7 +146,7 @@ const RoadMap = () => {
           &nbsp;&nbsp; &nbsp;&nbsp; - Using Twitter (for now) through spaces, retweets and posts 
           to give smaller artists not only a platform but also an Audience, so they can go more in depth about their Art.
           <br /> <br />
-          <Text>Before we talk about Phase 2, Phase 1 needs to have at least 80% completion rate.<Text></Text>
+          <Text>Before we talk about Phase 2, Phase 1 needs to have at least 80% completion rate.<Text/>
      
         <br></br>
         </Text>

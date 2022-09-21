@@ -133,8 +133,8 @@ const About = () => {
         <Right>
             <Title data-scroll data-scroll-speed="-1">About Us</Title>
             <Text >We might be young, inexperienced, have no track record, but one thing is for sure, 
-             we have nothing to hide and own what we're about and who we are. 
-             No matter if you are with us or against us our rise is Unstoppable.</Text>
+             we have nothing to hide about what we want and who we are. 
+             No matter if you are with us or against us, our Rise is Unstoppable.</Text>
             <br />
 
             <Text>
@@ -144,6 +144,7 @@ const About = () => {
 
             <Text>
             To know more about us follow us on Twitter. See you soon.
+            
             </Text>
         </Right>
         </Box>
