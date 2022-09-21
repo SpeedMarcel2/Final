@@ -148,7 +148,7 @@ const RoadMap = () => {
           <br /> <br />
           <Text>Before we talk about Phase 2, Phase 1 needs to have at least 80% completion rate.<Text/>
      
-        <br></br>
+        <br/>
         </Text>
       </Box>
     </Container>
