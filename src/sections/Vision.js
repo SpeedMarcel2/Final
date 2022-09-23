@@ -175,11 +175,11 @@ const Vision = () => {
         
             
             <Text>Informations about our Project</Text>
-            <br>
+            
             <li>Our Collection has a total of 500 NFTs</li>
             <li>
             To know more about our NFT, the amount of NFT's we have and their price follow us on Twitter.
-            </li></br>
+            </li>
 
             
           The Future is in your Hands. Welcome to the Odessey of the Unknown Men.
