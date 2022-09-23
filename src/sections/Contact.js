@@ -183,9 +183,11 @@ const Contact = () => {
             <a href="https://twitter.com/_Odysssey_"  target={"_blank"} rel="noreferrer">
             <img src={twitter} alt="Unknown Men NFT" />
 
+            </a>
+
             <a href="https://raritysniper.com/nft-drops-calendar">Odessey of the UnknownMen</a>
 
-            </a>
+            
             &nbsp;
             &nbsp;
             <a href="mailto:info@unknownmennft.com"  target={"_blank"} rel="noreferrer" data-scroll data-scroll-speed="4" >
