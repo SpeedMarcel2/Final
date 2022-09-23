@@ -185,17 +185,16 @@ const Contact = () => {
 
             </a>
             
-            <br />
-            <br />
-            <a href="https://raritysniper.com/nft-drops-calendar">Odessey of the UnknownMen</a>
-
-
             &nbsp;
             &nbsp;
             <a href="mailto:info@unknownmennft.com"  target={"_blank"} rel="noreferrer" data-scroll data-scroll-speed="4" >
             <img src={email} alt="Unknown Men NFT" />
 
             </a>
+
+            <br />
+            <br />
+            <a href="https://raritysniper.com/nft-drops-calendar">Odessey of the UnknownMen</a>
             
             </Text> <br />
             
