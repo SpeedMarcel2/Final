@@ -169,9 +169,11 @@ const Vision = () => {
          But sadly, in the NFT-Space, Artists had a great difficulty to establish themselves (especially smaller ones) 
          and were drawning under a Flood of greedy and blind people, chasing bad Bored Ape Yachtclub and Azuki Imitations for a quick buck.
         
-        <Text>But our Platform will change that.</Text> 
+        <br />
+        <Text>But our Platform will change that.</Text><br/>
 
          It's a long process but the reward and potential is unimaginable.
+
         
             
             <Text>Informations about our Project</Text>
