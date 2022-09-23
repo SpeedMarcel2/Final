@@ -172,7 +172,7 @@ const Vision = () => {
         <Text>But our Platform will change that.</Text> 
 
          It's a long process but the reward and potential is unimaginable.
-          <ul>
+        
             
             <Text>Informations about our Project</Text>
             <br>
@@ -181,11 +181,9 @@ const Vision = () => {
             To know more about our NFT, the amount of NFT's we have and their price follow us on Twitter.
             </li></br>
 
-            <br/>
-           The Future is in your Hands. Welcome to the Odessey of the Unknown Men.
+            
+          The Future is in your Hands. Welcome to the Odessey of the Unknown Men.
 
-
-          </ul>
         </Text>
       </Box>
     </Container>
